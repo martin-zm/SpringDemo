@@ -4,9 +4,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.atguigu.spring.beans.annotation.controller.UserController;
-import com.atguigu.spring.beans.annotation.repository.UserRepository;
-import com.atguigu.spring.beans.annotation.service.UserService;
- class Main {
+
+class Main {
 
 	public static void main(String[] args) {
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("beans-annotation.xml");
