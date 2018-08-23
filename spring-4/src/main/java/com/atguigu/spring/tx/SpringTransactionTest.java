@@ -1,7 +1,5 @@
 package com.atguigu.spring.tx;
 
-import static org.junit.Assert.*;
-
 import java.util.Arrays;
 
 import org.junit.Test;
